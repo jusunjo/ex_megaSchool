@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import Favorite from "../routes/Favorite";
+
 import Home from "../routes/Home";
 import News from "../routes/News";
 import Todo from "../routes/Todo";
