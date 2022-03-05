@@ -8,7 +8,7 @@ import Calcolator from "../routes/Culcolator";
 
 import styled from "styled-components";
 import Board1 from "../routes/Board1";
-
+import Game from "../routes/Game";
 const Nav1 = styled.div`
     height: 60px;
 `;
