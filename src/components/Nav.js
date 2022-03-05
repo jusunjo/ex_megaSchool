@@ -49,34 +49,32 @@ const Nav = () => {
     return (
         <Nav1>
             <Link1>
+                <StyleLink to="/todo">
+                    <Span>Todo</Span>
+                </StyleLink>
+
+                <StyleLink to="/game">
+                    <Span>Game</Span>
+                </StyleLink>
+
                 <StyleLink to="/">
                     <Span>Carousel</Span>
+                </StyleLink>
+
+                <StyleLink to="/calculator">
+                    <Span>Calculator</Span>
                 </StyleLink>
 
                 <StyleLink to="/news">
                     <Span>News</Span>
                 </StyleLink>
-
-                <StyleLink to="/todo">
-                    <Span>Todo</Span>
-                </StyleLink>
-                <StyleLink to="/todo">
-                    <Span>Game</Span>
-                </StyleLink>
-                <StyleLink to="/calculator">
-                    <Span>Calculator</Span>
-                </StyleLink>
-                <StyleLink to="/Board1">
-                    <Span>Board</Span>
-                </StyleLink>
             </Link1>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/news" element={<News />} />
-
                 <Route path="/todo" element={<Todo />} />
+                <Route path="/game" element={<Game />} />
                 <Route path="/calculator" element={<Calcolator />} />
-                <Route path="/Board1" element={<Board1 />} />
             </Routes>
         </Nav1>
     );
